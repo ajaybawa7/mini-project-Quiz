@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    </head>
+<body>
+    <div id="quiz-container">
+        <h1>Kon Banega Crorepati </h1>
+        <p id="question"></p>
+        <button onclick="checkAnswer(0)" id="btn0"></button>
+        <button onclick="checkAnswer(1)" id="btn1"></button>
+        <button onclick="checkAnswer(2)" id="btn2"></button>
+        <button onclick="checkAnswer(3)" id="btn3"></button>
+        <p id="feedback"></p>
+        <button onclick="nextQuestion()" id="next-btn" style="display: none;">Next Question</button>
+    </div>
+    <audio id="new-question-audio" src="/new question.mp3"></audio>
+    <audio id="correct-answer-audio" src="/correct answer.mp3"></audio>
+    <audio id="wrong-answer-audio" src="/wrong answer.mp3"></audio>
+    <script src="quiz.js"></script>
+</body>
+</html>

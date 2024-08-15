@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/1690179957_kaun-banega-crorepati-ab-1.jpeg);
+    background-size: cover; /* Ensures the background image covers the entire screen */
+    background-position: center; /* Centers the background image */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff; /* Makes text white to stand out against the background */
+}
+
+#quiz-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Adds a semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#feedback {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 20px;
+}
